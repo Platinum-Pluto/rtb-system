@@ -261,3 +261,49 @@ No bid. Errors: Array
     [1] => No eligible campaigns found
 )
 
+Received request: {
+    "id": "success_bid_1",
+    "imp": [{
+        "id": "1",
+        "banner": {
+            "w": 320,
+            "h": 480,
+            "format": [{"w": 320, "h": 480}]
+        },
+        "bidfloor": 0.01,
+        "bidfloorcur": "USD"
+    }],
+    "device": {
+        "os": "android",
+        "geo": {"country": "BGD"}
+    },
+    "app": {
+        "name": "com.ludo.king",
+        "bundle": "com.ludo.king"
+    }
+}
+Loaded campaigns: Array
+(
+    [0] => Array
+        (
+            [campaignname] => Test_Banner_13th-31st_march_Developer
+            [advertiser] => TestGP
+            [code] => 118965F12BE33FB7E
+            [appid] => 20240313103027
+            [tld] => https://adplaytechnology.com/
+            [creative_type] => 1
+            [creative_id] => 167629
+            [dimension] => 320x480
+            [attribute] => rich-media
+            [url] => https://adplaytechnology.com/
+            [billing_id] => 123456789
+            [price] => 0.1
+            [bidtype] => CPM
+            [image_url] => https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png
+            [hs_os] => Android,iOS,Desktop
+            [country] => Bangladesh
+        )
+
+)
+
+Sent response: {"id":"success_bid_1","bidid":"bid_6782775a1efb4","seatbid":[{"bid":[{"id":"6782775a1efb7","impid":"1","price":0.1,"adid":"118965F12BE33FB7E","nurl":"https:\/\/adplaytechnology.com\/","iurl":"https:\/\/s3-ap-southeast-1.amazonaws.com\/elasticbeanstalk-ap-southeast-1-5410920200615\/CampaignFile\/20240117030213\/D300x250\/e63324c6f222208f1dc66d3e2daaaf06.png","cid":167629,"crid":167629,"adm":null,"adomain":["adplaytechnology.com"],"bundle":"com.ludo.king","campaignname":"Test_Banner_13th-31st_march_Developer","advertiser":"TestGP","creative_type":"1","w":320,"h":480,"ext":{"billing_id":"123456789"}}]}],"cur":"USD"}
