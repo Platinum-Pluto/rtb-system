@@ -1,0 +1,15 @@
+{
+    "id": "test_bid_3",
+    "imp": [{
+        "id": "1",
+        "banner": {
+            "w": 320,
+            "h": 480
+        },
+        "bidfloor": 0.2
+    }],
+    "device": {
+        "os": "android",
+        "geo": {"country": "BGD"}
+    }
+}

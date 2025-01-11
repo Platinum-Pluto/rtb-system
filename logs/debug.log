@@ -1,0 +1,263 @@
+Received request: {
+    "id": "myB92gUhMdC5DUxndq3yAg",
+    "imp": [
+        {
+            "id": "1",
+            "banner": {
+                "w": 320,
+                "h": 50,
+                "pos": 1,
+                "api": [3, 5, 6, 7],
+                "format": [
+                    {"w": 320, "h": 480}
+                ]
+            },
+            "bidfloor": 0.01,
+            "bidfloorcur": "USD",
+            "secure": 1
+        }
+    ],
+    "device": {
+        "os": "android",
+        "geo": {
+            "country": "BGD",
+            "city": "Dhaka"
+        }
+    },
+    "app": {
+        "name": "com.ludo.king",
+        "bundle": "com.ludo.king"
+    }
+}
+Loaded campaigns: Array
+(
+    [0] => Array
+        (
+            [campaignname] => Test_Banner_13th-31st_march_Developer
+            [advertiser] => TestGP
+            [code] => 118965F12BE33FB7E
+            [appid] => 20240313103027
+            [tld] => https://adplaytechnology.com/
+            [creative_type] => 1
+            [creative_id] => 167629
+            [dimension] => 320x480
+            [attribute] => rich-media
+            [url] => https://adplaytechnology.com/
+            [billing_id] => 123456789
+            [price] => 0.1
+            [bidtype] => CPM
+            [image_url] => https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png
+            [hs_os] => Android,iOS,Desktop
+            [country] => Bangladesh
+        )
+
+)
+
+No bid. Errors: Array
+(
+)
+
+Received request: {
+    "id": "myB92gUhMdC5DUxndq3yAg",
+    "imp": [
+        {
+            "id": "1",
+            "banner": {
+                "w": 320,
+                "h": 50,
+                "pos": 1,
+                "api": [3, 5, 6, 7],
+                "format": [
+                    {"w": 320, "h": 480}
+                ]
+            },
+            "bidfloor": 0.01,
+            "bidfloorcur": "USD",
+            "secure": 1
+        }
+    ],
+    "device": {
+        "os": "android",
+        "geo": {
+            "country": "BGD",
+            "city": "Dhaka"
+        }
+    },
+    "app": {
+        "name": "com.ludo.king",
+        "bundle": "com.ludo.king"
+    }
+}
+Loaded campaigns: Array
+(
+    [0] => Array
+        (
+            [campaignname] => Test_Banner_13th-31st_march_Developer
+            [advertiser] => TestGP
+            [code] => 118965F12BE33FB7E
+            [appid] => 20240313103027
+            [tld] => https://adplaytechnology.com/
+            [creative_type] => 1
+            [creative_id] => 167629
+            [dimension] => 320x480
+            [attribute] => rich-media
+            [url] => https://adplaytechnology.com/
+            [billing_id] => 123456789
+            [price] => 0.1
+            [bidtype] => CPM
+            [image_url] => https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png
+            [hs_os] => Android,iOS,Desktop
+            [country] => Bangladesh
+        )
+
+)
+
+Sent response: {"id":"myB92gUhMdC5DUxndq3yAg","bidid":"bid_67825bf989235","seatbid":[{"bid":[{"id":"67825bf989238","impid":"1","price":0.1,"adid":"118965F12BE33FB7E","nurl":"https:\/\/adplaytechnology.com\/","iurl":"https:\/\/s3-ap-southeast-1.amazonaws.com\/elasticbeanstalk-ap-southeast-1-5410920200615\/CampaignFile\/20240117030213\/D300x250\/e63324c6f222208f1dc66d3e2daaaf06.png","cid":167629,"crid":167629,"adm":null,"adomain":["adplaytechnology.com"],"bundle":"com.ludo.king","w":320,"h":480}]}],"cur":"USD"}
+Received request: {
+    "id": "myB92gUhMdC5DUxndq3yAg",
+    "imp": [
+        {
+            "id": "1",
+            "banner": {
+                "w": 320,
+                "h": 50,
+                "pos": 1,
+                "api": [3, 5, 6, 7],
+                "format": [
+                    {"w": 320, "h": 480}
+                ]
+            },
+            "bidfloor": 0.01,
+            "bidfloorcur": "USD",
+            "secure": 1
+        }
+    ],
+    "device": {
+        "os": "android",
+        "geo": {
+            "country": "BGD",
+            "city": "Dhaka"
+        }
+    },
+    "app": {
+        "name": "com.ludo.king",
+        "bundle": "com.ludo.king"
+    }
+}
+Loaded campaigns: Array
+(
+    [0] => Array
+        (
+            [campaignname] => Test_Banner_13th-31st_march_Developer
+            [advertiser] => TestGP
+            [code] => 118965F12BE33FB7E
+            [appid] => 20240313103027
+            [tld] => https://adplaytechnology.com/
+            [creative_type] => 1
+            [creative_id] => 167629
+            [dimension] => 320x480
+            [attribute] => rich-media
+            [url] => https://adplaytechnology.com/
+            [billing_id] => 123456789
+            [price] => 0.1
+            [bidtype] => CPM
+            [image_url] => https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png
+            [hs_os] => Android,iOS,Desktop
+            [country] => Bangladesh
+        )
+
+)
+
+Sent response: {"id":"myB92gUhMdC5DUxndq3yAg","bidid":"bid_67825e2764562","seatbid":[{"bid":[{"id":"67825e2764565","impid":"1","price":0.1,"adid":"118965F12BE33FB7E","nurl":"https:\/\/adplaytechnology.com\/","iurl":"https:\/\/s3-ap-southeast-1.amazonaws.com\/elasticbeanstalk-ap-southeast-1-5410920200615\/CampaignFile\/20240117030213\/D300x250\/e63324c6f222208f1dc66d3e2daaaf06.png","cid":167629,"crid":167629,"adm":null,"adomain":["adplaytechnology.com"],"bundle":"com.ludo.king","campaignname":"Test_Banner_13th-31st_march_Developer","advertiser":"TestGP","creative_type":"1","w":320,"h":480,"ext":{"billing_id":"123456789"}}]}],"cur":"USD"}
+Received request: {
+    "id": "test_bid_1",
+    "imp": [{
+        "id": "1",
+        "banner": {
+            "w": 320,
+            "h": 480,
+            "format": [{"w": 320, "h": 480}]
+        },
+        "bidfloor": 0.01,
+        "bidfloorcur": "USD"
+    }],
+    "device": {
+        "os": "android",
+        "geo": {"country": "BGD"}
+    },
+    "app": {
+        "name": "com.test.app",
+        "bundle": "com.test.app"
+    }
+}
+Loaded campaigns: Array
+(
+    [0] => Array
+        (
+            [campaignname] => Test_Banner_13th-31st_march_Developer
+            [advertiser] => TestGP
+            [code] => 118965F12BE33FB7E
+            [appid] => 20240313103027
+            [tld] => https://adplaytechnology.com/
+            [creative_type] => 1
+            [creative_id] => 167629
+            [dimension] => 320x480
+            [attribute] => rich-media
+            [url] => https://adplaytechnology.com/
+            [billing_id] => 123456789
+            [price] => 0.1
+            [bidtype] => CPM
+            [image_url] => https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png
+            [hs_os] => Android,iOS,Desktop
+            [country] => Bangladesh
+        )
+
+)
+
+Sent response: {"id":"test_bid_1","bidid":"bid_678260bc93ca6","seatbid":[{"bid":[{"id":"678260bc93ca8","impid":"1","price":0.1,"adid":"118965F12BE33FB7E","nurl":"https:\/\/adplaytechnology.com\/","iurl":"https:\/\/s3-ap-southeast-1.amazonaws.com\/elasticbeanstalk-ap-southeast-1-5410920200615\/CampaignFile\/20240117030213\/D300x250\/e63324c6f222208f1dc66d3e2daaaf06.png","cid":167629,"crid":167629,"adm":null,"adomain":["adplaytechnology.com"],"bundle":"com.test.app","campaignname":"Test_Banner_13th-31st_march_Developer","advertiser":"TestGP","creative_type":"1","w":320,"h":480,"ext":{"billing_id":"123456789"}}]}],"cur":"USD"}
+Received request: {
+    "id": "test_bid_2",
+    "imp": [{
+        "id": "1",
+        "banner": {
+            "w": 300,
+            "h": 250,
+            "format": [{"w": 300, "h": 250}]
+        },
+        "bidfloor": 0.01
+    }],
+    "device": {
+        "os": "android",
+        "geo": {"country": "BGD"}
+    }
+}
+Loaded campaigns: Array
+(
+    [0] => Array
+        (
+            [campaignname] => Test_Banner_13th-31st_march_Developer
+            [advertiser] => TestGP
+            [code] => 118965F12BE33FB7E
+            [appid] => 20240313103027
+            [tld] => https://adplaytechnology.com/
+            [creative_type] => 1
+            [creative_id] => 167629
+            [dimension] => 320x480
+            [attribute] => rich-media
+            [url] => https://adplaytechnology.com/
+            [billing_id] => 123456789
+            [price] => 0.1
+            [bidtype] => CPM
+            [image_url] => https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png
+            [hs_os] => Android,iOS,Desktop
+            [country] => Bangladesh
+        )
+
+)
+
+No bid. Errors: Array
+(
+    [0] => Dimension mismatch. Campaign: 320x480, Request: 300x250
+    [1] => No eligible campaigns found
+)
+

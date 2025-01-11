@@ -1,0 +1,20 @@
+[
+    {
+        "campaignname": "Test_Banner_13th-31st_march_Developer",
+        "advertiser": "TestGP",
+        "code": "118965F12BE33FB7E",
+        "appid": "20240313103027",
+        "tld": "https://adplaytechnology.com/",
+        "creative_type": "1",
+        "creative_id": 167629,
+        "dimension": "320x480",
+        "attribute": "rich-media",
+        "url": "https://adplaytechnology.com/",
+        "billing_id": "123456789",
+        "price": 0.1,
+        "bidtype": "CPM",
+        "image_url": "https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-ap-southeast-1-5410920200615/CampaignFile/20240117030213/D300x250/e63324c6f222208f1dc66d3e2daaaf06.png",
+        "hs_os": "Android,iOS,Desktop",
+        "country": "Bangladesh"
+    }
+]
