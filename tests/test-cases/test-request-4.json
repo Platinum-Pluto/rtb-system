@@ -1,15 +1,16 @@
 {
-    "id": "test_bid_4",
+    "id": "fail_bid_1",
     "imp": [{
         "id": "1",
         "banner": {
-            "w": 320,
-            "h": 480
+            "w": 100,
+            "h": 100,
+            "format": [{"w": 100, "h": 100}]
         },
         "bidfloor": 0.01
     }],
     "device": {
         "os": "android",
-        "geo": {"country": "USA"}
+        "geo": {"country": "BGD"}
     }
 }

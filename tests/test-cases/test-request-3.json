@@ -1,15 +1,15 @@
 {
-    "id": "test_bid_3",
+    "id": "success_bid_3",
     "imp": [{
         "id": "1",
         "banner": {
             "w": 320,
             "h": 480
         },
-        "bidfloor": 0.2
+        "bidfloor": 0.01
     }],
     "device": {
-        "os": "android",
+        "os": "iOS",
         "geo": {"country": "BGD"}
     }
 }

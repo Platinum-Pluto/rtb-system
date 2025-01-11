@@ -64,34 +64,8 @@ class RTBTester
 
         return $results;
     }
-
-    public function runPerformanceTest($iterations = 1000)
-    {
-        echo "\n=== Starting Performance Test ===\n";
-        $startTime = microtime(true);
-
-        $testCount = 0;
-        foreach ($this->testCases as $testName => $testCase) {
-            for ($i = 0; $i < $iterations; $i++) {
-                try {
-                    $handler = new BidHandler(json_encode($testCase), $this->campaigns);
-                    $handler->processBidRequest();
-                    $testCount++;
-                } catch (Exception $e) {
-                    echo $e;
-                }
-            }
-        }
-
-        $endTime = microtime(true);
-        $elapsedTime = $endTime - $startTime;
-
-        echo "Performance Test Completed\n";
-        echo "Total Iterations: $testCount\n";
-        echo "Total Time: " . number_format($elapsedTime, 2) . " seconds\n";
-        echo "Average Time per Request: " . number_format(($elapsedTime / $testCount) * 1000, 2) . " ms\n";
-    }
 }
+
 
 $tester = new RTBTester();
 $results = $tester->runTests();
@@ -100,5 +74,3 @@ echo "\n=== Test Results Summary ===\n";
 echo "Total Tests: " . $results['total'] . "\n";
 echo "Passed: " . $results['passed'] . "\n";
 echo "Failed: " . $results['failed'] . "\n";
-
-$tester->runPerformanceTest(1000);

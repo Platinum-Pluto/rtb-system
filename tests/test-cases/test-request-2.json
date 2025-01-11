@@ -1,11 +1,14 @@
 {
-    "id": "test_bid_1",
+    "id": "success_bid_2",
     "imp": [{
         "id": "1",
         "banner": {
-            "w": 320,
-            "h": 480,
-            "format": [{"w": 320, "h": 480}]
+            "w": 300,
+            "h": 250,
+            "format": [
+                {"w": 320, "h": 480},
+                {"w": 300, "h": 250}
+            ]
         },
         "bidfloor": 0.01,
         "bidfloorcur": "USD"
@@ -13,9 +16,5 @@
     "device": {
         "os": "android",
         "geo": {"country": "BGD"}
-    },
-    "app": {
-        "name": "com.test.app",
-        "bundle": "com.test.app"
     }
 }

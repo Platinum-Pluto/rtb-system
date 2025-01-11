@@ -1,0 +1,10 @@
+{
+    "id": "fail_bid_4",
+    "imp": [{
+        "id": "1",
+        "banner": {}
+    }],
+    "device": {
+        "geo": {"country": "BGD"}
+    }
+}
